@@ -1,3 +1,3 @@
 # My dotfiles
 
-I use LazyVim
+I use LazyVim, sway and zsh
