@@ -44,8 +44,10 @@ export TERMINAL=kitty
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
-
-
+export GUROBI_HOME="/opt/gurobi1202/linux64/"
+export PATH="$GUROBI_HOME/bin:$PATH"
+export LD_LIBRARY_PATH="$GUROBI_HOME/lib:$LD_LIBRARY_PATH"
+export CLASSPATH=.:$GUROBI_HOME/lib/gurobi.jar
 # ---------------------------------------------
 # Preferred editors
 # ---------------------------------------------
