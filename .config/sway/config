@@ -146,6 +146,16 @@ output * bg /home/rohitbinu/Pictures/bg_images/eDP-1/1.png fill
 #
 
 exec mako
+# Open VS Code instances in workspaces 5 and 6 on startup
+# exec --no-startup-id "swaymsg 'workspace 5; exec code ~/Documents/BunqChat'; sleep 2"
+# exec --no-startup-id "swaymsg 'workspace 6; exec code ~/Documents/WebApp'; sleep 2"
+# exec --no-startup-id "swaymsg 'workspace 1; exec firefox'; sleep 2"
+# exec --no-startup-id "swaymsg 'workspace 1; exec $term'"
+
+exec --no-startup-id bash -c "swaymsg 'workspace 5; exec $term nvim ~/Documents/BunqChat'; swaymsg 'workspace 6; exec $term nvim ~/Documents/WebApp'; swaymsg 'workspace 1; exec firefox'; swaymsg 'workspace 3; exec $term'"
+
+
+
 
 # Layout stuff:
 #

@@ -77,7 +77,7 @@ path+=(/usr/pgsql/bin)
 alias config='code --new-window ~/.config/sway/config'
 alias swaylock='swaylock --color 000000'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+alias cd="z"
 
 # ---------------------------------------------
 # Optional: load additional .zshrc.d/* files
