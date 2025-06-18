@@ -13,7 +13,7 @@ max-visible=7
 sort=-time
 output=HDMI-A-1
 layer=top
-anchor=top-left
+anchor=bottom-center
 
 font=monospace 10
 background-color=#798BC7F0
