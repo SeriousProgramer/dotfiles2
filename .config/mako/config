@@ -9,7 +9,7 @@
 #
 # See man 5 mako
 
-max-visible=7
+max-visible=3
 sort=-time
 output=HDMI-A-1
 layer=top
