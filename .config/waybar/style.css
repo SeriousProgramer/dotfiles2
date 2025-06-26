@@ -137,8 +137,8 @@ button:hover {
 }
 
 #battery.charging, #battery.plugged {
-    color: #00FF00;
-    background-color: #000000;
+    color: #000000;
+    background-color: #00FF00;
 }
 
 @keyframes blink {
@@ -150,7 +150,7 @@ button:hover {
 
 #battery.critical:not(.charging) {
     background-color: #000000;
-    color: #00FF00;
+    color: #ff0d00;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -164,12 +164,12 @@ button:hover {
 
 #power-profiles-daemon.performance {
     background-color: #000000;
-    color: #00FF00;
+    color: #ff0019;
 }
 
 #power-profiles-daemon.balanced {
     background-color: #000000;
-    color: #00FF00;
+    color: #0004ff;
 }
 
 #power-profiles-daemon.power-saver {
