@@ -75,7 +75,8 @@ output * bg /home/rohitbinu/Pictures/bg_images/eDP-1/1.png fill
     bindsym $mod+BACKSPACE kill
 
     # Start your launcher
-    bindsym $mod+d exec wofi --show drun
+    bindsym $mod+d exec wofi --show drun --allow-images --image-size 32
+
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -152,7 +153,7 @@ exec mako
 # exec --no-startup-id "swaymsg 'workspace 1; exec firefox'; sleep 2"
 # exec --no-startup-id "swaymsg 'workspace 1; exec $term'"
 
-exec --no-startup-id bash -c "swaymsg 'workspace 5; exec $term nvim ~/Documents/BunqChat'; swaymsg 'workspace 6; exec $term nvim ~/Documents/WebApp'; swaymsg 'workspace 1; exec firefox'; swaymsg 'workspace 3; exec $term'"
+exec --no-startup-id bash -c "swaymsg 'workspace 6; exec code ~/Documents/WebApp'; swaymsg 'workspace 1; exec firefox'; swaymsg 'workspace 3; exec $term'"
 
 
 

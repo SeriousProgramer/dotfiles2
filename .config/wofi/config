@@ -1,0 +1,6 @@
+mode       = drun        # app-launcher mode that reads *.desktop files
+allow_images = true      # turn image support on
+image_size   = 32        # optional – size in px
+# or on very old builds
+show_icons   = true
+
