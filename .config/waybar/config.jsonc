@@ -30,7 +30,7 @@
         "memory",
         "temperature",
         "backlight",
-        "sway/language",
+        "custom/power",
         
         "custom/date",
         "clock",
