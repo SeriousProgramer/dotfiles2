@@ -144,6 +144,9 @@ output * bg /home/rohitbinu/Pictures/bg_images/eDP-1/1.png fill
     bindsym $mod+Shift+0 move container to workspace number 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
+
+    bindgesture swipe:right workspace prev
+    bindgesture swipe:left workspace next
 #
 
 exec mako
@@ -153,7 +156,7 @@ exec mako
 # exec --no-startup-id "swaymsg 'workspace 1; exec firefox'; sleep 2"
 # exec --no-startup-id "swaymsg 'workspace 1; exec $term'"
 
-exec --no-startup-id bash -c "swaymsg 'workspace 6; exec code ~/Documents/WebApp'; swaymsg 'workspace 1; exec firefox'; swaymsg 'workspace 3; exec $term'"
+exec --no-startup-id bash -c "swaymsg 'workspace 6; exec code ~/Documents/WebApp'; sleep 2; swaymsg 'workspace 1; exec firefox'; sleep 2; swaymsg 'workspace 3; exec $term'"
 
 
 
