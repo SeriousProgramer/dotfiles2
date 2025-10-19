@@ -6,7 +6,7 @@
 window#waybar {
     background-color: #000000;
     border-bottom: 3px solid rgba(12, 12, 12, 0.5);
-    color: #00FF00;
+    color: #810081;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -44,7 +44,7 @@ button {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -3px #00FF00;
+    box-shadow: inset 0 -3px #810081;
 }
 
 /* you can set a style on hover for any module like this */
@@ -55,7 +55,7 @@ button:hover {
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #00FF00;
+    color: #810081;
 }
 
 #workspaces button:hover {
@@ -64,7 +64,7 @@ button:hover {
 
 #workspaces button.focused {
     background-color: #000000;
-    box-shadow: inset 0 -3px #00FF00;
+    box-shadow: inset 0 -3px #810081;
 }
 
 #workspaces button.urgent {
@@ -73,7 +73,7 @@ button:hover {
 
 #mode {
     background-color: #000000;
-    box-shadow: inset 0 -3px #00FF00;
+    box-shadow: inset 0 -3px #810081;
 }
 
 #clock,
@@ -95,7 +95,7 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    color: #00FF00;
+    color: #810081;
 }
 
 #window,
@@ -119,32 +119,32 @@ button:hover {
 
 #custom-date {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
     padding: 0 10px;
     font-weight: bold;
 }
 
 #custom-wofi-launcher {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
     padding: 0 10px;
     font-weight: bold;
 }
 
 #battery {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 #battery.charging, #battery.plugged {
     color: #000000;
-    background-color: #00FF00;
+    background-color: #810081;
 }
 
 @keyframes blink {
     to {
         background-color: #000000;
-        color: #00FF00;
+        color: #810081;
     }
 }
 
@@ -174,7 +174,7 @@ button:hover {
 
 #power-profiles-daemon.power-saver {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 label:focus {
@@ -183,7 +183,7 @@ label:focus {
 
 #cpu {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 #memory {
@@ -208,17 +208,17 @@ label:focus {
 
 #pulseaudio {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 #pulseaudio.muted {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 #wireplumber {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 #wireplumber.muted {
@@ -227,7 +227,7 @@ label:focus {
 
 #custom-media {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
     min-width: 100px;
 }
 
@@ -266,12 +266,12 @@ label:focus {
 
 #idle_inhibitor.activated {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 #mpd {
     background-color: #000000;
-    color: #00FF00;
+    color: #810081;
 }
 
 #mpd.disconnected {
@@ -288,7 +288,7 @@ label:focus {
 
 #language {
     background: #000000;
-    color: #00FF00;
+    color: #810081;
     padding: 0 5px;
     margin: 0 5px;
     min-width: 16px;
@@ -296,7 +296,7 @@ label:focus {
 
 #keyboard-state {
     background: #000000;
-    color: #00FF00;
+    color: #810081;
     padding: 0 0px;
     margin: 0 5px;
     min-width: 16px;
@@ -324,7 +324,7 @@ label:focus {
 
 #privacy-item {
     padding: 0 5px;
-    color: #00FF00;
+    color: #810081;
 }
 
 #privacy-item.screenshare {
