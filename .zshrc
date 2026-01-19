@@ -80,7 +80,8 @@ alias config='code --new-window ~/.config/sway/config'
 alias swaylock='swaylock --color 000000'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cd="z"
-
+alias czh="code $HOME/.zshrc"
+alias szh="source $HOME/.zshrc"
 # ---------------------------------------------
 # Optional: load additional .zshrc.d/* files
 # ---------------------------------------------
@@ -95,3 +96,6 @@ unset rc
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(zoxide init zsh)"
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
