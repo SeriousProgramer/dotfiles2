@@ -51,3 +51,9 @@ require("lazy").setup({
     },
   },
 })
+return {  opts = {
+    rocks = {
+      enabled = false,
+    },
+  },
+}
